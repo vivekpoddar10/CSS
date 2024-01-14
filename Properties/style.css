@@ -1,0 +1,117 @@
+body{
+    background-color: antiquewhite;
+}
+
+h1{
+    background-color: darkseagreen;
+    color: whitesmoke;
+}
+
+h2{
+    background-color: #c58940;
+    color: #faf8f1;
+}
+
+/*----------------- font-size property ------------------*/
+#pixel{
+    font-size: 20px;
+}
+
+#point{
+    font-size: 20pt;
+}
+
+#em{
+    font-size: 1em;
+}
+
+#rem{
+    font-size: 1rem;
+}
+
+footer{
+    font-size: 12pt;
+}
+
+html{
+    font-size: xx-large;
+}
+
+/*----------------------- font-family property --------------------*/
+
+
+/*----------------------- excercise --------------------*/
+
+#color{
+    color: coral;
+}
+#fontSize{
+    font-size: 2rem;
+}
+
+#fontWeight{
+    font-weight: 900;
+}
+#textAlign{
+    text-align: right;
+}
+#fontFamily{
+    font-family: 'Libre Baskerville', serif;
+}
+html{
+    font-size: 30px;
+}
+
+/*------------- css box model -------------------*/
+div{
+    height: 200px;
+    width: 200px;
+    
+}
+
+#div1{
+    background-color: cadetblue;
+    border: 10px solid black;
+    padding: 20px;
+    font-size: 16px;
+    /* total width: 200 + 20 + 40 = 260*/
+}
+p{
+    margin: 0;
+}
+#div2{
+    background-color: gold;
+    border: solid black;
+    border-width: 20px 10px;
+    margin-left: 260px;
+    /* total width: 200 + 20 = 220*/
+}
+#div3{
+    background-color: indianred;
+    border: 10px solid black;
+    margin-left: 40px;
+    /*total width: 200 + 20 = 220*/
+}
+
+/*-------------- excercise ------------*/
+
+#poster {
+    width: 50%;
+    height: 400px;
+    margin-left: 25%;
+    margin-top: 5px;
+    padding: 2px;
+    color: white;
+    text-align: center;
+    background-color: black;
+}
+
+.image{
+    width: 50%;
+    height: auto;
+    border: 5px solid white;
+}
+
+h3{
+    text-transform: uppercase;
+}
