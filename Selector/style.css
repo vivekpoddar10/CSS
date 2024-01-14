@@ -1,0 +1,49 @@
+/*
+CSS selector specifies the HTML code on which css code will be applied
+*/
+
+/* Tag selector */
+h3 {
+    color: blue;
+}
+
+/* Class selector */
+.red-heading{
+    color: red;
+}
+
+/* ID selector */
+#green-heading{
+    color: green;
+}
+
+/* Attribute selector 
+    -> It will select all the html tag which will have the specified attribute
+*/
+p[draggable]{
+    color: yellow;
+}
+
+/* Value selector
+    -> It will select all the html tag which have the specified attribute ans the value
+*/
+p[draggable='false'] {
+    color: violet;
+}
+
+/*------------------------ Challenge -----------------*/
+p{
+    color: red;
+}
+.note{
+    font-size: 20px;
+}
+#id-selector-demo{
+    color: green;
+}
+li[value='4']{
+    color: blue;
+}
+*{
+    text-align: center;
+}
